@@ -6,7 +6,31 @@ A collection of Claude Code skills that turn non-technical people into builders 
 
 Built for people who believe the AI-native future will be shaped not only by developers, but by business people who learn to build. These skills take someone from "I've never opened a terminal" to "I just built an agent that reimagined our workflow."
 
-## The Skills (13)
+## Getting Started — Just 5 Commands
+
+You don't need to remember 18 skills. Just use these:
+
+| Command | What it does |
+|:--------|:-------------|
+| `/pathfinder` | **Start here.** The master router — tells you what's available, detects what you need, and activates the right skill automatically. Or just talk naturally and it figures it out. |
+| `/learn` | **Understand things.** Turns on plain-English explanations, courage mode, and surfaces things you didn't know to ask about. |
+| `/build` | **Create things.** Find what to automate, form a hypothesis, build a rough v1 fast, connect APIs, level up to agents. |
+| `/reflect` | **Capture learnings.** Journal what you built, what broke, what you learned. Measure time saved and ROI. |
+| `/share` | **Multiply impact.** Generate shareable summaries, how-to guides, presentations, and workshop plans. Teach others to build. |
+
+Or skip the commands entirely — just say what's on your mind and Pathfinder routes you to the right tool.
+
+## The Skills (18)
+
+### The Router & Shortcuts
+
+| Skill | What it does |
+|:------|:-------------|
+| **[pathfinder](skills/pathfinder/)** | Master router — detects what you need and activates the right skill. Shows quick menu, handles smart transitions between skills. |
+| **[learn](skills/learn/)** | Shortcut mode: tech-translator + courage-mode + unknown-unknowns |
+| **[build](skills/build/)** | Shortcut mode: workflow-detective + hypothesis-lab + build-first-break-later + apps-script-builder + api-explorer + agent-architect |
+| **[reflect](skills/reflect/)** | Shortcut mode: iteration-journal + impact-mapper |
+| **[share](skills/share/)** | Shortcut mode: show-your-work + teach-back |
 
 ### The On-Ramp
 
