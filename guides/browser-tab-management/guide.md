@@ -23,6 +23,8 @@ About 30 minutes. Try each technique as you read — learning by doing is the on
 - Google Chrome browser (this guide is Chrome-specific)
 - A bunch of tabs open (you probably already have this covered)
 
+**Mac users:** Wherever you see `Ctrl` in this guide, use `Cmd` instead. Everything else works the same.
+
 ---
 
 ## Part 1: Find Any Tab Instantly
