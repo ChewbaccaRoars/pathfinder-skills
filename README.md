@@ -332,6 +332,16 @@ git add .claude/skills/
 git commit -m "Add Pathfinder skills"
 ```
 
+### Enable the Welcome Message (optional but recommended)
+
+Copy the example CLAUDE.md to your home directory so Pathfinder greets you on every new session:
+
+```bash
+cp CLAUDE.md.example ~/CLAUDE.md
+```
+
+This shows the quick menu (`/learn`, `/build`, `/reflect`, `/share`) when you start a new Claude Code session. Without it, the skills still work — you just won't get the welcome prompt.
+
 ## Quick Start
 
 1. Install the plugin (see above)

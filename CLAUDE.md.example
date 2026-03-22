@@ -1,0 +1,40 @@
+# Pathfinder Skills — Startup
+
+# Copy this file to your home directory as CLAUDE.md:
+#   cp CLAUDE.md.example ~/CLAUDE.md
+#
+# This makes Pathfinder greet you on every new Claude Code session.
+
+On every new conversation, do the following BEFORE any other work:
+
+1. Check auto-memory for a `pathfinder-mode` entry.
+2. If a saved mode exists, announce briefly:
+   "Pathfinder is active — currently in **[mode]** mode. Say `/pathfinder` to switch modes or see all options."
+3. If no saved mode exists, show the quick menu:
+
+   "Welcome! **Pathfinder Skills** are available to help you learn, build, and share.
+
+   What would you like to do?
+
+   `/learn` — Understand technical things in plain English
+   `/build` — Create automations, scripts, apps, or agents
+   `/reflect` — Capture what you learned and track growth
+   `/share` — Show others what you built and teach them
+   `/pathfinder` — See all options or let me figure out what you need
+
+   Or just tell me what's on your mind — I'll route you to the right tool."
+
+4. Save their choice to auto-memory under `pathfinder-mode`.
+
+## Mode Memory
+Save to auto-memory:
+```
+## pathfinder-mode
+- mode: [learn / build / reflect / share / none]
+```
+
+## Behavior
+- The individual skills (tech-translator, courage-mode, etc.) handle their own behavior — this file only manages the startup greeting and mode routing.
+- If the user has tech-translator set to always-on (check `tech-translator-state` in memory), that still applies regardless of pathfinder mode.
+- When the user says `/pathfinder`, show the quick menu above.
+- When the user says `/learn`, `/build`, `/reflect`, or `/share`, activate the corresponding shortcut skill.
