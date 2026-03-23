@@ -16,7 +16,7 @@ We promise to help them gain the superpower of **building** — the ability to c
 
 ## Getting Started — Just 5 Commands
 
-You don't need to remember 18 skills. Just use these:
+You don't need to remember 19 skills. Just use these:
 
 | Command | What it does |
 |:--------|:-------------|
@@ -415,11 +415,12 @@ This shows the quick menu (`/learn`, `/build`, `/reflect`, `/share`) when you st
 ## Quick Start
 
 1. Install the plugin (see above)
-2. Start a new Claude Code session
-3. Tech Translator will ask if you want it always-on, on-demand, or off
-4. Say "what should I build?" to start with Workflow Detective
-5. Say "let's build it" to jump into Build First, Break Later
-6. Say "what did I learn?" at the end to reflect with Iteration Journal
+2. Copy the welcome message: `cp CLAUDE.md.example ~/CLAUDE.md`
+3. Start a new Claude Code session — Pathfinder greets you with the quick menu
+4. Type `/learn`, `/build`, `/reflect`, or `/share` — or just say what's on your mind
+5. Say "what should I build?" to start with Workflow Detective
+6. Say "let's build it" to jump into Build First, Break Later
+7. Say "what did I learn?" at the end to reflect with Iteration Journal
 
 ## Trigger Phrases (all skills)
 
