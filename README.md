@@ -9,7 +9,7 @@ This is for people who believe the AI-native future will be built not only by de
 We promise to help them gain the superpower of **building** — the ability to create their own automations, apps, and agents, and to use that power where it delivers the greatest possible impact.
 
 **What's inside:**
-- **18 Claude Code skills** — from understanding your first command to building your own agents
+- **19 Claude Code skills** — from understanding your first command to building your own agents
 - **Teaching materials** — workshop plans, train-the-trainer kits, teaching guides
 - **Real-world patterns** — battle-tested code patterns from production Apps Script projects
 - **The journey** — a structured path from "I've never opened a terminal" to "I just built an agent that reimagined our workflow"
@@ -28,7 +28,7 @@ You don't need to remember 18 skills. Just use these:
 
 Or skip the commands entirely — just say what's on your mind and Pathfinder routes you to the right tool.
 
-## The Skills (18)
+## The Skills (19)
 
 ### The Router & Shortcuts
 
@@ -235,6 +235,22 @@ Guides you from simple automations to building your own agents through six progr
 ### The Multipliers
 
 <details>
+<summary><strong>lessons</strong> — Turn discoveries into reusable team knowledge</summary>
+
+Captures hard-won knowledge — quirks, workarounds, "I wish someone had told me this" moments — into structured lesson files that others can learn from.
+
+**Key features:**
+- **Context-aware**: Pulls from conversation history automatically — if you just debugged something, say "create a lesson" and it writes the lesson without making you re-explain
+- **Structured format**: Every lesson has The Problem, What You'll See, The Fix, Why This Happens, and Recommendation
+- **Searchable titles**: Clear, specific names like `granite-tool-calling-quirks.md` not `lesson1.md`
+- **Git workflow**: Saves the file, commits, and can create an MR to a shared team repo
+- **Compounds across the team**: One person's fix becomes everyone's knowledge — the next person's Claude instance loads it automatically
+
+**Say**: "create a lesson", "write this up as a lesson", "document this", "TIL", "save this as a lesson", "someone else should know about this"
+
+</details>
+
+<details>
 <summary><strong>show-your-work</strong> — Turn builds into organizational knowledge</summary>
 
 Generates shareable artifacts from what you built so your impact multiplies across the organization.
@@ -303,6 +319,7 @@ Quantifies the impact of your builds — time saved, errors reduced, ROI — and
  unknown-unknowns       "What am I not seeing?"
       |
  iteration-journal      "What did I learn?"
+ lessons                "Let me save this so others don't hit it"
       |
  apps-script-builder    "Let me build something real"
  api-explorer           "Let me connect systems"
@@ -376,6 +393,7 @@ This shows the quick menu (`/learn`, `/build`, `/reflect`, `/share`) when you st
 | "help me teach this" / "create a workshop" | teach-back |
 | "what's the impact?" / "show the ROI" | impact-mapper |
 | "journal" / "what did I learn today?" | iteration-journal |
+| "create a lesson" / "document this" / "TIL" | lessons |
 | "quiz me" / "cheat sheet" / "ELI5" | tech-translator |
 
 ## Workshops & Guides

@@ -41,6 +41,7 @@ Map natural language to the right skill.
 - Wants to prove value → impact-mapper
 - Wants to teach others → teach-back
 - Wants to know what they're missing → unknown-unknowns
+- Wants to document a discovery/quirk/workaround → lessons
 
 **Question signals:**
 
@@ -106,6 +107,8 @@ When one skill naturally leads to another, suggest the transition:
 - After iteration-journal entry → "Want to share this with your team? Say 'show my work'"
 - After show-your-work generates artifacts → "Want to teach someone else? Say 'help me teach this'"
 - After any build → "Want to measure the impact? Say 'what's the impact?'"
+- After debugging/fixing something → "Want to save this as a lesson so others don't hit the same issue? Say 'create a lesson'"
+- After a lesson is created → "Want to share this with the team? Say 'show my work'"
 
 ## Status Check
 
