@@ -176,3 +176,44 @@ Pull the problem, discovery, and fix from the conversation history — don't ask
 - Specific: exact error messages, exact commands, exact versions.
 - Honest: "We tried X and it didn't work" is valuable. Don't hide the failures.
 - Generous: write it for the person who will Google this at 11pm.
+
+---
+
+## Direct Quirk Creation (without a lesson)
+
+Quirks can also be created directly — without writing a full lesson first. This is for when the user says "create quirks" or "save these quirks" after a debugging session.
+
+### When to create quirks directly
+
+- After a debugging session where something non-obvious was discovered
+- When the user says "create quirks", "save quirks", "document these gotchas"
+- Proactively after hitting a technical pitfall during a build session
+- When the conversation contains enough context to extract quirks without a full lesson
+
+### Filing rules (critical — follow exactly)
+
+1. **File by tool/technology** — name the file after the tech: `python.md`, `ollama.md`, `windows.md`. NEVER name it after the project (no `my-project-quirks.md`).
+
+2. **Add to existing tag files first** — if `python.md` already exists, append your new quirk to it and increment the `count:` header. Only create a new tag file for a genuinely new technology.
+
+3. **Update the index** — after adding/creating quirk files, update `_index.md`:
+   - Increment `Total quirks:` and `Total tag files:` counts
+   - Add new tag file rows to the Tag Files table
+
+4. **One quirk = one pitfall** — each `###` block covers exactly one thing. Don't combine multiple issues into one block.
+
+5. **Be specific** — include exact error messages, exact function names, exact commands. Someone should be able to ctrl+F their error and find the quirk.
+
+### Where quirks live
+
+Quirks are stored in a `quirks/` directory inside the user's training/enablement repo. Check the user's memory or ask them where their quirks repo lives. The directory contains:
+- `_index.md` — summary index with counts and trigger keywords
+- `{technology}.md` — one file per technology tag
+
+### Common mistakes to avoid
+
+- DO NOT save quirks to Claude Code auto-memory — they belong in the quirks repo
+- DO NOT create a CLAUDE.md in the project repo for quirks — use the dedicated quirks directory
+- DO NOT name quirk files after projects — name them after technologies
+- DO NOT create a new tag file when an existing one covers the same tech — append instead
+- DO commit and push quirks to the remote repo after creating them
